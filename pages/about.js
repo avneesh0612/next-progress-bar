@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Home page</h1>
-      <button onClick={() => router.push("/about")}>Go to about me</button>
+      <h1>About page</h1>
+      <button onClick={() => router.push("/")}>Go to Home</button>
     </div>
   );
 }
